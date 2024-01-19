@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+  
+
+body {
+    box-sizing: border-box;
+    background-image: url(./back-2.jpg);
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.wrap {
+    /* min-height: 100%; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 30%; */
+    gap: 40px;
+    flex: 1 1 auto;
+}
+
+img {
+    width: 300px;
+    /* height: 50%; */
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.name {
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.btn {
+    border: none;
+    background-color: white;
+    color: tomato;
+    padding: 5px 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.amount,
+.price{
+    display: block;
+    background-color: white;
+    color: #2f631b;
+    text-align: center;
+    min-width: 60px;
+    height: 20px;
+    padding: 2px 5px;
+    line-height: 1.2;
+}
+
+.d {
+    line-height: 0;
+}
+
